@@ -23,26 +23,26 @@ function Navbar() {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <Link to="/lndry/" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/lndry_2.0/" className="nav-links" onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
                     <li className="nav-item" onClick={closeMobileMenu}>
-                        <Link to="/lndry/about" className="nav-links">
+                        <Link to="/lndry_2.0/about" className="nav-links">
                             About
                         </Link>
                     </li>
                     <li className="nav-item" onClick={closeMobileMenu}>
-                        <Link to="/lndry/services" className="nav-links">
+                        <Link to="/lndry_2.0/services" className="nav-links">
                             Services
                         </Link>
                     </li>
                     <li className="nav-item" onClick={closeMobileMenu} style={{marginRight: "20px"}}>
-                        <Link to="/lndry/pricing" className="nav-links">
+                        <Link to="/lndry_2.0/pricing" className="nav-links">
                             Pricing
                         </Link>
                     </li>
-                    <Button linkBtn="/lndry/contact" labelBtn="Contact" />
+                    <Button linkBtn="/lndry_2.0/contact" labelBtn="Contact" />
                 </ul>
                 
             </nav>
