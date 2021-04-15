@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/lndry_2.0/static/css/main.13b6d6f1.chunk.css",
-    "main.js": "/lndry_2.0/static/js/main.fc2374dd.chunk.js",
-    "main.js.map": "/lndry_2.0/static/js/main.fc2374dd.chunk.js.map",
-    "runtime-main.js": "/lndry_2.0/static/js/runtime-main.19cba892.js",
-    "runtime-main.js.map": "/lndry_2.0/static/js/runtime-main.19cba892.js.map",
-    "static/js/2.f068d5b4.chunk.js": "/lndry_2.0/static/js/2.f068d5b4.chunk.js",
-    "static/js/2.f068d5b4.chunk.js.map": "/lndry_2.0/static/js/2.f068d5b4.chunk.js.map",
-    "index.html": "/lndry_2.0/index.html",
-    "static/css/main.13b6d6f1.chunk.css.map": "/lndry_2.0/static/css/main.13b6d6f1.chunk.css.map",
-    "static/js/2.f068d5b4.chunk.js.LICENSE.txt": "/lndry_2.0/static/js/2.f068d5b4.chunk.js.LICENSE.txt"
+    "main.css": "/lndry/static/css/main.13b6d6f1.chunk.css",
+    "main.js": "/lndry/static/js/main.fc2374dd.chunk.js",
+    "main.js.map": "/lndry/static/js/main.fc2374dd.chunk.js.map",
+    "runtime-main.js": "/lndry/static/js/runtime-main.483d5c9d.js",
+    "runtime-main.js.map": "/lndry/static/js/runtime-main.483d5c9d.js.map",
+    "static/js/2.f068d5b4.chunk.js": "/lndry/static/js/2.f068d5b4.chunk.js",
+    "static/js/2.f068d5b4.chunk.js.map": "/lndry/static/js/2.f068d5b4.chunk.js.map",
+    "index.html": "/lndry/index.html",
+    "static/css/main.13b6d6f1.chunk.css.map": "/lndry/static/css/main.13b6d6f1.chunk.css.map",
+    "static/js/2.f068d5b4.chunk.js.LICENSE.txt": "/lndry/static/js/2.f068d5b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.19cba892.js",
+    "static/js/runtime-main.483d5c9d.js",
     "static/js/2.f068d5b4.chunk.js",
     "static/css/main.13b6d6f1.chunk.css",
     "static/js/main.fc2374dd.chunk.js"
