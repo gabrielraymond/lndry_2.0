@@ -1,0 +1,138 @@
+header{
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 72px;
+    z-index: 100;
+    display: flex;
+}
+
+nav{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.navbar-logo{
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 800;
+    color: #000000;
+    animation-name: example;
+    animation-duration: 1.5s;
+    text-decoration: none;
+}
+
+@keyframes example {
+    0%   {margin-bottom: 50px; opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.nav-menu{
+    display: flex;
+    animation-name: example;
+    animation-duration: 1.5s;
+}
+
+.nav-item{
+    display: inline-block;
+    list-style: none;
+    top: 22px;
+    padding: auto;
+    height: 28px;
+    margin: auto 0 auto 0;
+    transition: 0.5s;
+}
+
+.nav-item :hover{
+    transition: 0.5s;
+    background: #F4D160;
+    border-radius: 50px;
+}
+
+.nav-links{
+    color: #021718;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+
+    .navbar-logo{
+        margin: 0 20px;
+        font-size: 32px;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 72px);
+        position: absolute;
+        top: 72px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+
+    header{
+        position: fixed;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .nav-menu.active {
+        background: #FBEEAC;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 100;
+    }
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        background-color: #F4D160;
+        border-radius: 0;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 10px;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        
+    }
+
+    .nav-item{
+        width: 100%;
+        text-align: center;
+        margin:0 auto;
+        height: auto;
+    }
+
+    .fa-times{
+        font-size: 2rem;
+        margin-right: 3px;
+    }
+    
+}

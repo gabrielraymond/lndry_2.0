@@ -1,0 +1,28 @@
+:root {
+    --primary: #F4D160;
+}
+  
+.btn {
+    padding: 10px 25px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid var(--primary);
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+.btn:hover {
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+@media all and (max-width: 960px){
+    .btn{
+        margin-top: 20px;
+    }
+}
