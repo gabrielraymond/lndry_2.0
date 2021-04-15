@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <header>
             <nav>
-                <Link to="/lndry/" className="navbar-logo" onClick={closeMobileMenu}>
+                <Link to="/lndry_2.0/" className="navbar-logo" onClick={closeMobileMenu}>
                     LNDRY
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
